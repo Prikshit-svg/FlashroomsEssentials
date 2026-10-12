@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for the FlashRooms Android application.">
+  <title>FlashRooms Privacy Policy</title>
+  <style>
+    :root { color-scheme: light; --ink:#202124; --muted:#5f6368; --line:#dadce0; --panel:#f8f9fa; --accent:#174ea6; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:#fff; }
+    main { max-width:850px; margin:0 auto; padding:32px 22px 60px; }
+    h1 { line-height:1.2; font-size:2.1rem; margin-bottom:8px; }
+    h2 { margin-top:32px; font-size:1.25rem; }
+    p, li { max-width:78ch; }
+    .muted { color:var(--muted); }
+    .review { border:1px solid #e37400; background:#fff8e1; padding:16px 18px; border-radius:8px; margin:24px 0; }
+    .review h2 { margin-top:0; color:#8a4b00; }
+    a { color:var(--accent); overflow-wrap:anywhere; }
+    footer { margin-top:40px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:.92rem; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>FlashRooms Privacy Policy</h1>
+  <p class="muted">Last updated: October 12, 2026</p>
+
+  <!--
+    PUBLISHING CHECKLIST — complete before making this page public:
+    1. Confirm the exact hotel API provider and its privacy policy.
+    2. Inspect the app/API requests and Firebase configuration to confirm exactly what data is collected, transmitted, and stored.
+    3. Confirm account deletion and data-retention procedures.
+    4. Confirm whether analytics, crash reporting, advertising, location, payment, or other SDKs/permissions are present.
+    5. Replace the last-updated date when making substantive changes.
+    Remove this comment after all checks are complete. Do not publish if the policy is inaccurate.
+  -->
+
+  <div class="review">
+    <h2>Developer review required before publication</h2>
+    <p>This draft is based only on the information currently provided: FlashRooms uses Firebase Authentication, a local Room database, and a hotel API; it is currently intended for browsing hotels; and Google AdMob is not yet integrated. The exact hotel API provider, specific data fields, retention periods, and deletion workflow have not been confirmed. Verify these details in the app and update this policy before using it as the live policy.</p>
+  </div>
+
+  <h2>1. About FlashRooms</h2>
+  <p>FlashRooms is an Android application for browsing and searching hotel information. For privacy questions, contact <a href="mailto:flashroomsadmin@gmail.com">flashroomsadmin@gmail.com</a>.</p>
+
+  <h2>2. Information that may be processed</h2>
+  <p>The information processed depends on the features you use and how the app is configured. Based on the services identified for the current version, the following categories may be relevant:</p>
+  <ul>
+    <li><strong>Firebase Authentication:</strong> if you sign in or create an account, Firebase Authentication may process account identifiers and the authentication details required by the sign-in method enabled in the app. The exact sign-in methods and fields must be confirmed by the developer.</li>
+    <li><strong>Hotel searches and API requests:</strong> search terms, destination or other query details may be sent to the hotel API when you search or request hotel information. The API provider may also receive technical information associated with a request, such as an IP address, according to its own systems and privacy policy. The exact provider and fields sent by FlashRooms must be confirmed.</li>
+    <li><strong>Local app data:</strong> the app uses Room Database, an on-device database. The particular information saved there, how long it remains, and whether it can be removed by clearing app data must be confirmed from the app's implementation.</li>
+  </ul>
+  <p>Do not assume that FlashRooms collects a name, phone number, precise location, payment details, or booking information unless the current implementation actually collects or transmits it. FlashRooms is currently described as a hotel-browsing app, not as a service that completes hotel bookings.</p>
+
+  <h2>3. How information is used</h2>
+  <p>Depending on the implemented features, information may be used to authenticate users, respond to hotel searches, display hotel information, and store app data locally. The developer should verify these purposes against the actual app behavior and remove any statement that does not apply.</p>
+
+  <h2>4. Third-party services and sharing</h2>
+  <p>FlashRooms currently uses the following services, as reported by the developer:</p>
+  <ul>
+    <li><strong>Firebase Authentication:</strong> used for authentication. Google's processing is subject to the applicable <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a> and Firebase terms and documentation.</li>
+    <li><strong>Hotel API:</strong> used to retrieve hotel information. The provider's name and privacy-policy URL have not yet been supplied. Add them here before publication and describe the information sent in API requests.</li>
+    <li><strong>Room Database:</strong> used for local on-device storage. Room is an Android database library; it does not by itself mean that stored data is sent to a third party.</li>
+  </ul>
+  <p>Google AdMob advertising is not integrated at the time this draft was prepared. If advertising, analytics, crash reporting, maps, payment services, or any other SDK is added later, this policy and the relevant app-store disclosures must be reviewed and updated before or when those features are introduced.</p>
+
+  <h2>5. Permissions and device information</h2>
+  <p>The Android permissions requested by the current app have not been provided. The developer must inspect the app manifest and runtime permission requests and update this section to list any relevant permissions and explain their purpose. Do not claim that the app does or does not access location, photos, files, contacts, or other device data until verified.</p>
+
+  <h2>6. Data security</h2>
+  <p>Reasonable technical and organizational measures should be used to protect information handled by the app and its service providers. Data sent over the network should use HTTPS where supported. No method of transmission or storage can be guaranteed to be completely secure. The developer should verify the app's actual network security and access controls before publication.</p>
+
+  <h2>7. Data retention and deletion</h2>
+  <p>The exact retention periods for Firebase Authentication data, hotel API request data, and locally stored Room data have not yet been confirmed. Local data may remain on the device until it is removed by an app feature, app-data clearing, or uninstalling the app; this depends on the implementation and backups. Uninstalling the app does not necessarily delete data held by Firebase or the hotel API provider.</p>
+  <p><strong>Before publication, specify how a user can request deletion of their account and associated server-side data, if accounts are supported, and how local and provider-held data are handled.</strong> Contact <a href="mailto:flashroomsadmin@gmail.com">flashroomsadmin@gmail.com</a> for privacy questions or to ask about data deletion. Do not describe email as a completed deletion process unless requests are actually handled and the process is operational.</p>
+
+  <h2>8. Children's privacy</h2>
+  <p>The intended age group for FlashRooms has not been confirmed. The developer should establish the app's target audience and applicable requirements before publication. Do not use this draft as a statement that the app is designed for children or that it knowingly collects children's personal information.</p>
+
+  <h2>9. Changes to this policy</h2>
+  <p>This policy may be updated when the app's features, data practices, or service providers change. The revised policy will be published at this URL with an updated “Last updated” date. Review the policy whenever a new SDK or data-collection feature is introduced.</p>
+
+  <h2>10. Contact</h2>
+  <p>For questions about this Privacy Policy or FlashRooms' privacy practices, contact:</p>
+  <p><strong>Email:</strong> <a href="mailto:flashroomsadmin@gmail.com">flashroomsadmin@gmail.com</a></p>
+
+  <footer>
+    <p>This document is a draft based on limited implementation details, not legal advice. The developer is responsible for verifying its accuracy and ensuring it matches the app, its SDKs, its data disclosures, and applicable requirements.</p>
+  </footer>
+</main>
+</body>
+</html>
